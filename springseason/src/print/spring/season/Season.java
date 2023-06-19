@@ -5,7 +5,7 @@ package print.spring.season;
 import java.util.*;
 
 public class Season {
-    public void value(int m , int d)
+    public static void value(int m , int d)
     {
         if(m==3)
         {
@@ -45,8 +45,8 @@ public class Season {
         int a=scanner.nextInt();
         System.out.println("Enter a Day");
         int b=scanner.nextInt();
-        Season c = new Season();
-        c.value(a,b);
+   
+         value(a,b);
 
     }
 
