@@ -1,7 +1,7 @@
 //. Read a Number 1,10,100,1000 and display unit, ten hundred
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Enter the single digit");
+        System.out.println("Enter the number ");
         int x=100;
 
         if(x==1000)
